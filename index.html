@@ -1,300 +1,536 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Resumex - Professional HTML CSS Resume Website Template</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
 
-  <title>Resume - Start Bootstrap Theme</title>
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.css" rel="stylesheet">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Tung Phung</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-      </ul>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
     </div>
-  </nav>
+</div>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Tung
-          <span class="text-primary">Phung</span>
-        </h1>
-        <div class="subheading mb-5">22955 Rock Hill Rd. · Sterling, VA 20166 · (571) 423-9086 ·
-          <a href="mailto:tungtphung@gmail.com">tungtphung@gmail.com</a>
+<div class="columns-block container">
+<div class="left-col-block blocks">
+    <header class="header theiaStickySidebar">
+        <div class="profile-img">
+            <img src="img/img-profile.jpg" class="img-responsive" alt=""/>
         </div>
-        <p class="lead mb-5">I am a data scientist, avid runner, and cyclist. Always looking forward to the next challenge. Today, that challenge is to explore the hidden trends in data that people overlook, bringing meaning to information that people undervalue. Coming from a small business background, I know that any amount of data, ranging from trivial to the whole data center occupying, matters. What some see from the outset as insurmountable journeys and obstacles, I see as the first step to a run, the first pedal stroke on a bike, or the first keystroke to simple script. I believe our challenges are best faced together and we don’t truly finish until we are all at the finish line.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/tung">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://www.github.com/TungPhung">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </div>
-    </section>
+        <div class="content">
+            <h1>Tung Phung</h1>
+            <span class="lead">Data Scientist</span>
 
-    <hr class="m-0">
+            <div class="about-text">
+                <p>
+                    I am a data scientist, avid runner, and cyclist who is always looking forward to the next challenge. Today, that challenge is to explore the hidden trends in data that people overlook, bringing meaning to information that people undervalue.
+                </p>
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+                <p>
+                    I do that utilizing my engineering and analytical science background along with my data science coursework at General Assembly - where I engaged in meaningful and real-life data science, applying machine learning methods to passion projects. Check out my projects on the right or head to my Github for more samples of my work. Keep up with my current thoughts on Medium or link up with me on Linkedin for potential projects.
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
-          </div>
+                </p>
+
+
+                <!-- <p><img src="img/Signature.png" alt="" class="img-responsive"/></p> -->
+            </div>
+
+
+            <ul class="social-icon">
+                <li><a href="https://wwww.linkedin.com/in/tung"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://wwww.github.com/tungphung"<i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.medium.com/tungy"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+            </ul>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
-          </div>
+    </header>
+    <!-- .header-->
+</div>
+<!-- .left-col-block -->
+
+
+<div class="right-col-block blocks">
+<div class="theiaStickySidebar">
+<section class="expertise-wrapper section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Expertise</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Programming</h3>
+
+                    <p>
+                        Python, Jupyter Notebook, Java
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Libraries</h3>
+
+                    <p>
+                        Pandas, Numpy, Scikit-Learn, StatsModels, NLTK, Word2Vec, XGBoost
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Modelling</h3>
+
+                    <p>
+                        Machine Learning, Natural Language Processing, Neural Networks
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Additional Technologies</h3>
+
+                    <p>
+                        SQL, Flask, Docker, Amazon Web Services(EC2, S3), Google Cloud
+                    </p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
+
+    </div>
+</section>
+<!-- .expertise-wrapper -->
+
+<section class="section-wrapper skills-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress-wrapper">
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
+                    <div class="progress-item">
+                        <span class="progress-title">Python</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 95%"><span class="progress-percent"> 95%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+
+
+                    <div class="progress-item">
+                        <span class="progress-title">Natural Language Processing</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 89%"><span class="progress-percent"> 89%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+
+
+                    <div class="progress-item">
+                        <span class="progress-title">Organisational Skills</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 83%;"><span class="progress-percent"> 83%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+
+                    <div class="progress-item">
+                        <span class="progress-title">Communication Skills</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 85%;"><span class="progress-percent"> 8  5%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+                    <div class="progress-item">
+                        <span class="progress-title">Project Management</span>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+
+                </div>
+                <!-- /.progress-wrapper -->
+            </div>
         </div>
+        <!--.row -->
+    </div>
+    <!-- .container-fluid -->
+</section>
+<!-- .skills-wrapper -->
 
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
-          </div>
+<section class="section-wrapper section-experience gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Experience</h2></div>
+            </div>
         </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>February 2019 - May 2019</small>
+                    <h3>Data Science Immersive Program</h3>
+                    <h4>General Assembly</h4>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>
+                    <p>Washington, D.C.</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>June 2009 - November 2017</small>
+                    <h3>Operations Manager and Technology Officer</h3>
+                    <h4>Healthy Smiles Dental</h4>
+
+                    <p>Falls Church, VA</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
         </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
 
-      </div>
-    </section>
+</section>
+<!-- .section-experience -->
 
-    <hr class="m-0">
+<section class="section-wrapper section-education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Education</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>February 2019 - May 2019</small>
+                    <h3>Data Science Immersive Program</h3>
+                    <h4>General Assembly</h4>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+                    <p>Washington, D.C.</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>January 2011 - December 2013</small>
+                    <h3>M.S. Candidate Bioinformatics and Computational Biology</h3>
+                    <h4>George Mason University, School of Systems Biology</h4>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul>
+                    <p>Fairfax, VA</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>August 2005 - May 2009</small>
+                    <h3>B.S. Chemical Engineering</h3>
+                    <h4>University of Virginia</h4>
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
+                    <p>Charlottesville, VA</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
 
-    <hr class="m-0">
+</section>
+<!-- .section-education -->
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
+<section class="section-wrapper section-interest gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Interests</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
 
-    <hr class="m-0">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3> Books</h3>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
-      </div>
-    </section>
+                    <p> You won't find me anywhere without having a book or my kindle for downtime reading. I typically read cognitive psychology, memoirs, and also science fiction books. If I could recommend three books right now in each of those categories, they would be: Never Split the Difference by Chris Voss, Educated by Tara Westover, and Armor by John Steakley.</p>
+                </div>
+                <div class="content-item">
+                    <h3>Sports</h3>
 
-  </div>
+                    <p>I have been an avid runner, biker, and swimmer much of my adult life. I've done marathons, triathlons, tough mudders. Always looking for more medals to add to the wall. I am a glutton for punishment.</p>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                </div>
+                <div class="content-item">
+                    <h3>Drone Racing</h3>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                    <p> I'm also a kid at heart, I participate and organize local races for drone racing in the DMV area. While I may not be the fastest one around a track, I can certainly help in developing that local talent. To participate, please visit www.multigp.com and look for my group "Northern Virginia Radio Control."</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+    </div>
+</section>
+<!-- .section-publications -->
 
+<section class="section-wrapper portfolio-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a class="portfolio-item" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="img/portfolio-1.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Reddit NLP</h3>
+                        <small>Predict the origin of a post</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="img/portfolio-2.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Natural Disaster Mapping</h3>
+                        <small>Using Twitter to map natural disaster hotspots</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="img/portfolio-3.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Project 3</h3>
+                        <small>placeholder only</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="#">
+                    <div class="portfolio-thumb">
+                        <img src="img/portfolio-4.jpg" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Capstone Project</h3>
+                        <small>Using neural networks to identify potential viruses</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+
+        </div>
+        <!-- /.row -->
+    </div>
+</section>
+<!-- .portfolio -->
+
+<section class="section-wrapper achievements gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Achievements</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3>General Assembly Hackathon</h3>
+
+                    <p>Team Ibex - 1st Place</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+    </div>
+</section>
+<!-- .section-achievements -->
+
+<section class="section-contact section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:tungtphung@gmail.com">tungtphung@gmail.com</a>
+                </address>
+
+                <address>
+                    <strong>LinkedIn</strong><br>
+                    <a href="wwww.linkedin.com/tung">Tung Phung</a>
+                </address>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="feedback-form">
+                    <h2>Get in touch</h2>
+
+                    <form id="contactForm" action="sendemail.php" method="POST">
+                        <div class="form-group">
+                            <label for="InputName">Name</label>
+                            <input type="text" name="name" required="" class="form-control" id="InputName"
+                                   placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" name="email" required="" class="form-control" id="InputEmail"
+                                   placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputSubject">Subject</label>
+                            <input type="text" name="subject" class="form-control" id="InputSubject"
+                                   placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="control-label">Message</label>
+                            <textarea class="form-control" rows="4" required="" name="message" id="message-text"
+                                      placeholder="Write message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <!-- .feedback-form -->
+
+
+            </div>
+        </div>
+    </div>
+    <!--.container-fluid-->
+</section>
+<!--.section-contact-->
+
+<footer class="footer">
+    <div class="copyright-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copytext">&copy; Resumex. All rights reserved | Design By: <a
+                            href="https://themehippo.com">themehippo</a></div>
+                </div>
+            </div>
+            <!--.row-->
+        </div>
+        <!-- .container-fluid -->
+    </div>
+    <!-- .copyright-section -->
+</footer>
+<!-- .footer -->
+</div>
+<!-- Sticky -->
+</div>
+<!-- .right-col-block -->
+</div>
+<!-- .columns-block -->
+</div>
+<!-- #main-wrapper -->
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/theia-sticky-sidebar.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>
