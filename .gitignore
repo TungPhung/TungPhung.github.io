@@ -1,0 +1,5 @@
+# Hugo Build Lock
+.hugo_build.lock
+
+# Hugo Public Build
+/public/
